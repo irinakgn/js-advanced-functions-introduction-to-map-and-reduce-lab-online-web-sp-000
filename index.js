@@ -19,8 +19,5 @@ function reduceToTotal(array, startingPoint = 0){
 }
 
 
-function isFalsy(o) {
-  return !o;
-}
 
-const reduceToAllTrue = (array) => array.some(!isFalsy)
+const reduceToAllTrue = (array) =>
