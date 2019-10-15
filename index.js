@@ -32,8 +32,8 @@ const reduceToAllTrue = (array) => array.reduce((accum, curret)=> {
 
 const reduceToAnyTrue = (array) => array.reduce((accum, curret)=> {
 
-  if(!curret && accum){
-    accum = false
+  if(!curret ){
+    accum = true
   }
 
   return accum
