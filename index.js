@@ -23,4 +23,4 @@ function isFalsy(o) {
   return !!o;
 }
 
-const reduceToAllTrue = (array) => array.some(isFalsy)
+const reduceToAllTrue = (array) => array.some(!isFalsy)
