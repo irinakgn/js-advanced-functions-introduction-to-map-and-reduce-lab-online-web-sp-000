@@ -38,4 +38,3 @@ const reduceToAnyTrue = (array) => array.reduce((accum, curret)=> {
 
   return accum
 }, true)
-
