@@ -15,6 +15,5 @@ const  mapToSquare =(array) => array.map(m => m * m)
 
 const reduceToTotal = (array, startingPoint) => array.reduce((a, c)=>{
   a = a + c
-  console.log(c)
   return a
 }, startingPoint)
