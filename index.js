@@ -32,7 +32,7 @@ const reduceToAllTrue = (array) => array.reduce((accum, curret)=> {
 
 const reduceToAnyTrue = (array) => array.reduce((accum, curret)=> {
 
-  if(!curret ){
+  if(!!curret ){
     accum = true
   }
 
