@@ -17,3 +17,6 @@ function reduceToTotal(array, startingPoint = 0){
     return a
   }, startingPoint)
 }
+
+
+const reduceToAllTrue = (array) => array.reduce(()=>{},)
