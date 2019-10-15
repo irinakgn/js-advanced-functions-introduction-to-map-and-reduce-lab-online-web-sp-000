@@ -13,7 +13,12 @@ const  mapToSquare =(array) => array.map(m => m * m)
 
 // mapToSquare(sourceArray)
 
-const reduceToTotal = (array, startingPoint) => array.reduce((a, c)=>{
+const reduceToTotal = (, startingPoint) => array.reduce((a, c)=>{
   a = a + c
   return a
 }, startingPoint)
+
+
+function reduceToTotal(array, startingPoint){
+  
+}
