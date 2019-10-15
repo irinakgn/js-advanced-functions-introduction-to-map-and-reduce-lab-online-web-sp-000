@@ -10,11 +10,7 @@ const mapToNoChange = (array) => {
 
 const  mapToDouble =(array) => array.map(m => m * 2)
 const  mapToSquare =(array) => array.map(m => m * m)
-
-// mapToSquare(sourceArray)
-
-
-
+ 
 function reduceToTotal(array, startingPoint = 0){
   return array.reduce((a, c)=>{
     a = a + c
