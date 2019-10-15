@@ -28,3 +28,14 @@ const reduceToAllTrue = (array) => array.reduce((accum, curret)=> {
 
   return accum
 }, true)
+
+
+const reduceToAnyTrue = (array) => array.reduce((accum, curret)=> {
+
+  if(!curret && accum){
+    accum = false
+  }
+
+  return accum
+}, true)
+
