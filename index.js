@@ -21,5 +21,7 @@ function reduceToTotal(array, startingPoint = 0){
 
 
 const reduceToAllTrue = (array) => array.reduce((accum, curret)=> {
-  
-}, null)
+
+
+  return accum
+}, true)
